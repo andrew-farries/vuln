@@ -6,14 +6,15 @@ package vulncheck
 
 import (
 	"context"
+	"fmt"
 	"sync"
 
-	"golang.org/x/tools/go/callgraph"
-	"golang.org/x/tools/go/packages"
-	"golang.org/x/tools/go/ssa"
 	"github.com/andrew-farries/vuln/internal/client"
 	"github.com/andrew-farries/vuln/internal/govulncheck"
 	"github.com/andrew-farries/vuln/internal/osv"
+	"golang.org/x/tools/go/callgraph"
+	"golang.org/x/tools/go/packages"
+	"golang.org/x/tools/go/ssa"
 )
 
 // Source detects vulnerabilities in pkgs and emits the findings to handler.
@@ -53,7 +54,9 @@ func source(ctx context.Context, handler govulncheck.Handler, pkgs []*packages.P
 			defer wg.Done()
 			prog, ssaPkgs := buildSSA(pkgs, fset)
 			entries = entryPoints(ssaPkgs)
+			fmt.Println("about to run callGraph")
 			cg, buildErr = callGraph(ctx, prog, entries)
+			fmt.Println("callGraph finished")
 		}()
 	}
 
