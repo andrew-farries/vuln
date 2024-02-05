@@ -13,11 +13,11 @@ import (
 	"sort"
 
 	"golang.org/x/tools/go/packages"
-	"golang.org/x/vuln/internal"
-	"golang.org/x/vuln/internal/buildinfo"
-	"golang.org/x/vuln/internal/client"
-	"golang.org/x/vuln/internal/govulncheck"
-	"golang.org/x/vuln/internal/osv"
+	"github.com/andrew-farries/vuln/internal"
+	"github.com/andrew-farries/vuln/internal/buildinfo"
+	"github.com/andrew-farries/vuln/internal/client"
+	"github.com/andrew-farries/vuln/internal/govulncheck"
+	"github.com/andrew-farries/vuln/internal/osv"
 )
 
 // Bin is an abstraction of Go binary containing

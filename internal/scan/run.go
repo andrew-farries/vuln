@@ -15,8 +15,8 @@ import (
 	"strings"
 	"time"
 
-	"golang.org/x/vuln/internal/client"
-	"golang.org/x/vuln/internal/govulncheck"
+	"github.com/andrew-farries/vuln/internal/client"
+	"github.com/andrew-farries/vuln/internal/govulncheck"
 )
 
 // RunGovulncheck performs main govulncheck functionality and exits the

@@ -13,8 +13,8 @@ import (
 	"io"
 	"sort"
 
-	"golang.org/x/vuln/internal/derrors"
-	"golang.org/x/vuln/internal/vulncheck"
+	"github.com/andrew-farries/vuln/internal/derrors"
+	"github.com/andrew-farries/vuln/internal/vulncheck"
 )
 
 const (

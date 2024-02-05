@@ -12,7 +12,7 @@ import (
 	"strings"
 
 	"golang.org/x/tools/go/buildutil"
-	"golang.org/x/vuln/internal/govulncheck"
+	"github.com/andrew-farries/vuln/internal/govulncheck"
 )
 
 type config struct {

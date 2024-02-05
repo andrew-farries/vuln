@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"os"
 
-	"golang.org/x/vuln/scan"
+	"github.com/andrew-farries/vuln/scan"
 )
 
 func main() {

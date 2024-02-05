@@ -26,7 +26,7 @@ package govulncheck
 import (
 	"time"
 
-	"golang.org/x/vuln/internal/osv"
+	"github.com/andrew-farries/vuln/internal/osv"
 )
 
 const (

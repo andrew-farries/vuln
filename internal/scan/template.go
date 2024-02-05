@@ -14,9 +14,9 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"golang.org/x/vuln/internal"
-	"golang.org/x/vuln/internal/govulncheck"
-	"golang.org/x/vuln/internal/osv"
+	"github.com/andrew-farries/vuln/internal"
+	"github.com/andrew-farries/vuln/internal/govulncheck"
+	"github.com/andrew-farries/vuln/internal/osv"
 )
 
 type findingSummary struct {

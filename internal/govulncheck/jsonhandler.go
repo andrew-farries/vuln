@@ -9,7 +9,7 @@ import (
 
 	"io"
 
-	"golang.org/x/vuln/internal/osv"
+	"github.com/andrew-farries/vuln/internal/osv"
 )
 
 type jsonHandler struct {

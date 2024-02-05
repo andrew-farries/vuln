@@ -13,8 +13,8 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"golang.org/x/vuln/internal/govulncheck"
-	"golang.org/x/vuln/internal/scan"
+	"github.com/andrew-farries/vuln/internal/govulncheck"
+	"github.com/andrew-farries/vuln/internal/scan"
 )
 
 var update = flag.Bool("update", false, "update test files with results")

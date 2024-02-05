@@ -8,9 +8,9 @@ import (
 	"runtime"
 	"sort"
 
-	"golang.org/x/vuln/internal/client"
-	"golang.org/x/vuln/internal/osv"
-	"golang.org/x/vuln/internal/semver"
+	"github.com/andrew-farries/vuln/internal/client"
+	"github.com/andrew-farries/vuln/internal/osv"
+	"github.com/andrew-farries/vuln/internal/semver"
 )
 
 // newTestClient returns a client that reads

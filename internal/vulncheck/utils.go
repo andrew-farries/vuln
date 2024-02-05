@@ -18,8 +18,8 @@ import (
 	"golang.org/x/tools/go/packages"
 	"golang.org/x/tools/go/ssa/ssautil"
 	"golang.org/x/tools/go/types/typeutil"
-	"golang.org/x/vuln/internal/osv"
-	"golang.org/x/vuln/internal/semver"
+	"github.com/andrew-farries/vuln/internal/osv"
+	"github.com/andrew-farries/vuln/internal/semver"
 
 	"golang.org/x/tools/go/ssa"
 )

@@ -9,8 +9,8 @@ import (
 	"strings"
 
 	"golang.org/x/tools/go/packages"
-	"golang.org/x/vuln/internal"
-	"golang.org/x/vuln/internal/semver"
+	"github.com/andrew-farries/vuln/internal"
+	"github.com/andrew-farries/vuln/internal/semver"
 )
 
 // PackageGraph holds a complete module and package graph.

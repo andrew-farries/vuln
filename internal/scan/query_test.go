@@ -10,9 +10,9 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"golang.org/x/vuln/internal/client"
-	"golang.org/x/vuln/internal/osv"
-	"golang.org/x/vuln/internal/test"
+	"github.com/andrew-farries/vuln/internal/client"
+	"github.com/andrew-farries/vuln/internal/osv"
+	"github.com/andrew-farries/vuln/internal/test"
 )
 
 func TestRunQuery(t *testing.T) {

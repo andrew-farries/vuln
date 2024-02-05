@@ -10,9 +10,9 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"golang.org/x/tools/go/packages"
-	"golang.org/x/vuln/internal/client"
-	"golang.org/x/vuln/internal/osv"
-	"golang.org/x/vuln/internal/vulncheck"
+	"github.com/andrew-farries/vuln/internal/client"
+	"github.com/andrew-farries/vuln/internal/osv"
+	"github.com/andrew-farries/vuln/internal/vulncheck"
 )
 
 func TestFetchVulnerabilities(t *testing.T) {

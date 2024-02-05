@@ -12,7 +12,7 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"golang.org/x/vuln/internal/test"
+	"github.com/andrew-farries/vuln/internal/test"
 )
 
 // TestStrippedBinary checks that there is no symbol table for

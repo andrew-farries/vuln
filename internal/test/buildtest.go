@@ -13,7 +13,7 @@ import (
 	"strings"
 	"testing"
 
-	"golang.org/x/vuln/internal/testenv"
+	"github.com/andrew-farries/vuln/internal/testenv"
 )
 
 var unsupportedGoosGoarch = map[string]bool{

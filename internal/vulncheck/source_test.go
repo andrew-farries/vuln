@@ -11,10 +11,10 @@ import (
 	"testing"
 
 	"golang.org/x/tools/go/packages/packagestest"
-	"golang.org/x/vuln/internal/client"
-	"golang.org/x/vuln/internal/govulncheck"
-	"golang.org/x/vuln/internal/osv"
-	"golang.org/x/vuln/internal/test"
+	"github.com/andrew-farries/vuln/internal/client"
+	"github.com/andrew-farries/vuln/internal/govulncheck"
+	"github.com/andrew-farries/vuln/internal/osv"
+	"github.com/andrew-farries/vuln/internal/test"
 )
 
 // TestCalls checks for call graph vuln slicing correctness.

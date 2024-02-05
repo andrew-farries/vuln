@@ -9,9 +9,9 @@ import (
 	"fmt"
 	"regexp"
 
-	"golang.org/x/vuln/internal/client"
-	"golang.org/x/vuln/internal/govulncheck"
-	isem "golang.org/x/vuln/internal/semver"
+	"github.com/andrew-farries/vuln/internal/client"
+	"github.com/andrew-farries/vuln/internal/govulncheck"
+	isem "github.com/andrew-farries/vuln/internal/semver"
 )
 
 // runQuery reports vulnerabilities that apply to the queries in the config.

@@ -20,7 +20,7 @@ import (
 	"strings"
 
 	"golang.org/x/tools/go/packages"
-	"golang.org/x/vuln/internal/gosym"
+	"github.com/andrew-farries/vuln/internal/gosym"
 )
 
 func debugModulesToPackagesModules(debugModules []*debug.Module) []*packages.Module {

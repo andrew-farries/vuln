@@ -8,7 +8,7 @@ import (
 	"log"
 	"os"
 
-	"golang.org/x/vuln/cmd/govulncheck/integration/internal/integration"
+	"github.com/andrew-farries/vuln/cmd/govulncheck/integration/internal/integration"
 )
 
 const usage = `test helper for examining the output of running govulncheck on k8s@v1.15.11.

@@ -9,7 +9,7 @@
 // for more information on the SARIF format.
 package sarif
 
-import "golang.org/x/vuln/internal/govulncheck"
+import "github.com/andrew-farries/vuln/internal/govulncheck"
 
 // Log is the top-level SARIF object encoded in UTF-8.
 type Log struct {

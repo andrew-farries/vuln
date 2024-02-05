@@ -16,10 +16,10 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"golang.org/x/tools/go/packages"
 	"golang.org/x/tools/go/packages/packagestest"
-	"golang.org/x/vuln/internal/client"
-	"golang.org/x/vuln/internal/govulncheck"
-	"golang.org/x/vuln/internal/osv"
-	"golang.org/x/vuln/internal/test"
+	"github.com/andrew-farries/vuln/internal/client"
+	"github.com/andrew-farries/vuln/internal/govulncheck"
+	"github.com/andrew-farries/vuln/internal/osv"
+	"github.com/andrew-farries/vuln/internal/test"
 )
 
 // stacksToString converts map *Vuln:stack to Vuln.Symbol:"f1->...->fN"

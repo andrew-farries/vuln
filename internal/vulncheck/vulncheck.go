@@ -11,9 +11,9 @@ import (
 	"time"
 
 	"golang.org/x/tools/go/packages"
-	"golang.org/x/vuln/internal"
-	"golang.org/x/vuln/internal/osv"
-	"golang.org/x/vuln/internal/semver"
+	"github.com/andrew-farries/vuln/internal"
+	"github.com/andrew-farries/vuln/internal/osv"
+	"github.com/andrew-farries/vuln/internal/semver"
 )
 
 // Result contains information on detected vulnerabilities.

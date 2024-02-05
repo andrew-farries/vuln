@@ -15,8 +15,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"golang.org/x/vuln/internal/derrors"
-	"golang.org/x/vuln/internal/osv"
+	"github.com/andrew-farries/vuln/internal/derrors"
+	"github.com/andrew-farries/vuln/internal/osv"
 )
 
 type source interface {

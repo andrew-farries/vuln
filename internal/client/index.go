@@ -11,8 +11,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"golang.org/x/vuln/internal/osv"
-	isem "golang.org/x/vuln/internal/semver"
+	"github.com/andrew-farries/vuln/internal/osv"
+	isem "github.com/andrew-farries/vuln/internal/semver"
 )
 
 // indexFromDir returns a raw index created from a directory

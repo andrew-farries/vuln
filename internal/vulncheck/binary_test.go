@@ -13,9 +13,9 @@ import (
 	"testing"
 
 	"golang.org/x/tools/go/packages"
-	"golang.org/x/vuln/internal/buildinfo"
-	"golang.org/x/vuln/internal/govulncheck"
-	"golang.org/x/vuln/internal/test"
+	"github.com/andrew-farries/vuln/internal/buildinfo"
+	"github.com/andrew-farries/vuln/internal/govulncheck"
+	"github.com/andrew-farries/vuln/internal/test"
 )
 
 func TestBinary(t *testing.T) {

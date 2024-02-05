@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"golang.org/x/vuln/internal/govulncheck"
+	"github.com/andrew-farries/vuln/internal/govulncheck"
 )
 
 func TestSummarizeCallStack(t *testing.T) {

@@ -25,10 +25,10 @@ import (
 
 	"github.com/google/go-cmdtest"
 	"github.com/google/go-cmp/cmp"
-	"golang.org/x/vuln/internal/govulncheck"
-	"golang.org/x/vuln/internal/test"
-	"golang.org/x/vuln/internal/web"
-	"golang.org/x/vuln/scan"
+	"github.com/andrew-farries/vuln/internal/govulncheck"
+	"github.com/andrew-farries/vuln/internal/test"
+	"github.com/andrew-farries/vuln/internal/web"
+	"github.com/andrew-farries/vuln/scan"
 )
 
 var update = flag.Bool("update", false, "update test files with results")

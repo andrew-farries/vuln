@@ -9,10 +9,10 @@ import (
 	"io"
 	"strings"
 
-	"golang.org/x/vuln/internal"
-	"golang.org/x/vuln/internal/govulncheck"
-	"golang.org/x/vuln/internal/osv"
-	"golang.org/x/vuln/internal/vulncheck"
+	"github.com/andrew-farries/vuln/internal"
+	"github.com/andrew-farries/vuln/internal/govulncheck"
+	"github.com/andrew-farries/vuln/internal/osv"
+	"github.com/andrew-farries/vuln/internal/vulncheck"
 )
 
 type style int
@@ -46,7 +46,7 @@ type TextHandler struct {
 }
 
 const (
-	detailsMessage = `For details, see https://pkg.go.dev/golang.org/x/vuln/cmd/govulncheck.`
+	detailsMessage = `For details, see https://pkg.go.dev/github.com/andrew-farries/vuln/cmd/govulncheck.`
 
 	binaryProgressMessage = `Scanning your binary for known vulnerabilities...`
 )
@@ -188,7 +188,7 @@ func (h *TextHandler) byVulnerability(findings []*findingSummary) {
 		informational.WriteString(" Use -scan=symbol with govulncheck for more fine grained vulnerability detection.")
 	}
 	h.wrap("", informational.String(), 70)
-	h.print("\nSee https://pkg.go.dev/golang.org/x/vuln/cmd/govulncheck for details.\n\n")
+	h.print("\nSee https://pkg.go.dev/github.com/andrew-farries/vuln/cmd/govulncheck for details.\n\n")
 	index := 0
 	for _, findings := range byVuln {
 		if !isCalled(findings) {

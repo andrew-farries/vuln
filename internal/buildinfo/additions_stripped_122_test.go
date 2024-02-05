@@ -11,7 +11,7 @@ import (
 	"os"
 	"testing"
 
-	"golang.org/x/vuln/internal/test"
+	"github.com/andrew-farries/vuln/internal/test"
 )
 
 // TestStrippedBinary checks that there is no symbol table for

@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"golang.org/x/vuln/internal/govulncheck"
+	"github.com/andrew-farries/vuln/internal/govulncheck"
 )
 
 func TestFrame(t *testing.T) {
@@ -22,21 +22,21 @@ func TestFrame(t *testing.T) {
 		{
 			name: "position and function",
 			frame: &govulncheck.Frame{
-				Package:  "golang.org/x/vuln/internal/vulncheck",
+				Package:  "github.com/andrew-farries/vuln/internal/vulncheck",
 				Function: "Foo",
 				Position: &govulncheck.Position{Filename: "some/path/file.go", Line: 12},
 			},
-			wantFunc: "golang.org/x/vuln/internal/vulncheck.Foo",
+			wantFunc: "github.com/andrew-farries/vuln/internal/vulncheck.Foo",
 			wantPos:  "some/path/file.go:12",
 		},
 		{
 			name: "receiver",
 			frame: &govulncheck.Frame{
-				Package:  "golang.org/x/vuln/internal/vulncheck",
+				Package:  "github.com/andrew-farries/vuln/internal/vulncheck",
 				Receiver: "Bar",
 				Function: "Foo",
 			},
-			wantFunc: "golang.org/x/vuln/internal/vulncheck.Bar.Foo",
+			wantFunc: "github.com/andrew-farries/vuln/internal/vulncheck.Bar.Foo",
 		},
 		{
 			name:     "function and receiver",

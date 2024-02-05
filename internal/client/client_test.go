@@ -17,8 +17,8 @@ import (
 	"time"
 
 	"github.com/google/go-cmp/cmp"
-	"golang.org/x/vuln/internal/osv"
-	"golang.org/x/vuln/internal/web"
+	"github.com/andrew-farries/vuln/internal/osv"
+	"github.com/andrew-farries/vuln/internal/web"
 )
 
 var (

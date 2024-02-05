@@ -23,10 +23,10 @@ import (
 	"time"
 
 	"golang.org/x/sync/errgroup"
-	"golang.org/x/vuln/internal/derrors"
-	"golang.org/x/vuln/internal/osv"
-	isem "golang.org/x/vuln/internal/semver"
-	"golang.org/x/vuln/internal/web"
+	"github.com/andrew-farries/vuln/internal/derrors"
+	"github.com/andrew-farries/vuln/internal/osv"
+	isem "github.com/andrew-farries/vuln/internal/semver"
+	"github.com/andrew-farries/vuln/internal/web"
 )
 
 // A Client for reading vulnerability databases.

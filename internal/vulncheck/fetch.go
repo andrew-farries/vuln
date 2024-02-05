@@ -9,7 +9,7 @@ import (
 	"fmt"
 
 	"golang.org/x/tools/go/packages"
-	"golang.org/x/vuln/internal/client"
+	"github.com/andrew-farries/vuln/internal/client"
 )
 
 // FetchVulnerabilities fetches vulnerabilities that affect the supplied modules.

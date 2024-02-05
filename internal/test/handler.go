@@ -7,8 +7,8 @@ package test
 import (
 	"sort"
 
-	"golang.org/x/vuln/internal/govulncheck"
-	"golang.org/x/vuln/internal/osv"
+	"github.com/andrew-farries/vuln/internal/govulncheck"
+	"github.com/andrew-farries/vuln/internal/osv"
 )
 
 // MockHandler implements govulncheck.Handler but (currently)

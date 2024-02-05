@@ -7,11 +7,11 @@ package govulncheck_test
 import (
 	"testing"
 
-	"golang.org/x/vuln/internal/test"
+	"github.com/andrew-farries/vuln/internal/test"
 )
 
 func TestImports(t *testing.T) {
 	test.VerifyImports(t,
-		"golang.org/x/vuln/internal/osv", // allowed to pull in the osv json entries
+		"github.com/andrew-farries/vuln/internal/osv", // allowed to pull in the osv json entries
 	)
 }

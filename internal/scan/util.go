@@ -9,8 +9,8 @@ import (
 	"os"
 	"os/exec"
 
-	"golang.org/x/vuln/internal"
-	"golang.org/x/vuln/internal/govulncheck"
+	"github.com/andrew-farries/vuln/internal"
+	"github.com/andrew-farries/vuln/internal/govulncheck"
 )
 
 // validateFindings checks that the supplied findings all obey the protocol

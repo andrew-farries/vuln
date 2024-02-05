@@ -7,7 +7,7 @@ package semver
 import (
 	"sort"
 
-	"golang.org/x/vuln/internal/osv"
+	"github.com/andrew-farries/vuln/internal/osv"
 )
 
 func Affects(a []osv.Range, v string) bool {

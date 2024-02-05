@@ -7,7 +7,7 @@ package semver
 import (
 	"testing"
 
-	"golang.org/x/vuln/internal/osv"
+	"github.com/andrew-farries/vuln/internal/osv"
 )
 
 func TestNonSupersededFix(t *testing.T) {

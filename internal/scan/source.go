@@ -9,10 +9,10 @@ import (
 	"fmt"
 
 	"golang.org/x/tools/go/packages"
-	"golang.org/x/vuln/internal/client"
-	"golang.org/x/vuln/internal/derrors"
-	"golang.org/x/vuln/internal/govulncheck"
-	"golang.org/x/vuln/internal/vulncheck"
+	"github.com/andrew-farries/vuln/internal/client"
+	"github.com/andrew-farries/vuln/internal/derrors"
+	"github.com/andrew-farries/vuln/internal/govulncheck"
+	"github.com/andrew-farries/vuln/internal/vulncheck"
 )
 
 // runSource reports vulnerabilities that affect the analyzed packages.

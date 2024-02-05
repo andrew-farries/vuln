@@ -15,11 +15,11 @@ import (
 	"os"
 	"runtime/debug"
 
-	"golang.org/x/vuln/internal/buildinfo"
-	"golang.org/x/vuln/internal/client"
-	"golang.org/x/vuln/internal/derrors"
-	"golang.org/x/vuln/internal/govulncheck"
-	"golang.org/x/vuln/internal/vulncheck"
+	"github.com/andrew-farries/vuln/internal/buildinfo"
+	"github.com/andrew-farries/vuln/internal/client"
+	"github.com/andrew-farries/vuln/internal/derrors"
+	"github.com/andrew-farries/vuln/internal/govulncheck"
+	"github.com/andrew-farries/vuln/internal/vulncheck"
 )
 
 // runBinary detects presence of vulnerable symbols in an executable or its minimal blob representation.
